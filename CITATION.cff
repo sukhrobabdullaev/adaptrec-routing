@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "adaptrec-routing: reproducibility package"
+authors:
+  - family-names: Abdullaev
+    given-names: Sukhrobjon
+    affiliation: "Tashkent University of Information Technologies named after Muhammad al-Khwarizmi"
+    email: sukhrobabdullaevweb@gmail.com
+license: MIT
+repository-code: "https://github.com/sukhrobabdullaev/adaptrec-routing"
+date-released: 2026-10-30
+preferred-citation:
+  type: article
+  title: "Adaptive Routing of Heterogeneous Recommendation Components over E-Commerce Request Streams: A Budget-Constrained Contextual Bandit Approach with Stream-Level Drift Detection"
+  authors:
+    - family-names: Abdullaev
+      given-names: Sukhrobjon
+  year: 2026
+  notes: "Manuscript submitted for publication."
