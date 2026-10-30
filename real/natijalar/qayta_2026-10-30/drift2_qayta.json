@@ -1,0 +1,45 @@
+{
+ "limit": 120000,
+ "warm": 40000,
+ "budget": 2.0,
+ "blok": 2000,
+ "segment": 4000,
+ "ph_delta": 0.0005,
+ "vaqt_s": 0.0,
+ "soxta_signal": {
+  "lam_tuzatishsiz": 121.252,
+  "lam_bonferroni": 122.9422,
+  "komponent_tuzatishsiz": 0.05,
+  "tizim_tuzatishsiz": 0.25,
+  "nazariy_1_minus_095_pow_K": 0.2262,
+  "komponent_bonferroni": 0.01,
+  "tizim_bonferroni": 0.05,
+  "n_segment": 20
+ },
+ "reset_vs_saqla": {
+  "NDCG_saqla": 0.1315,
+  "NDCG_reset": 0.1315,
+  "reset_jarimasi_foiz": 0.0,
+  "n_blok": 32,
+  "aniqlash_saqla": 0,
+  "aniqlash_reset": 0
+ },
+ "holm": {
+  "saqla vs reset (t)": {
+   "p_xom": NaN,
+   "p_holm": 0.0,
+   "ahamiyatli_005": true
+  },
+  "saqla vs reset (Wilcoxon)": {
+   "p_xom": NaN,
+   "p_holm": 0.0,
+   "ahamiyatli_005": true
+  }
+ },
+ "eng_yaxshi_statik": {
+  "toplam": [
+   4
+  ],
+  "NDCG": 0.133
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "jami_toplamlar": 31,
+ "yol_qoyiladigan": 19,
+ "statik_toplam": [
+  "m1 CF/graf",
+  "m5 LLM"
+ ],
+ "afsuslanish": {
+  "A1 (adaptiv marshrutlash)": {
+   "yakuniy": 80.0,
+   "std": 1.8,
+   "ortacha_narx": 6.78
+  },
+  "Statik gibrid": {
+   "yakuniy": 558.7,
+   "std": 7.5,
+   "ortacha_narx": 7.0
+  },
+  "Tasodifiy tanlov": {
+   "yakuniy": 1761.3,
+   "std": 7.9,
+   "ortacha_narx": 4.44
+  }
+ },
+ "afsuslanish_qiya": 0.454,
+ "narx_tejash_foiz": 3.2,
+ "drift": {
+  "Drift detektori bilan": {
+   "yakuniy": 224.2,
+   "driftdan_keyin": 127.1,
+   "qayta_boshlashlar": 2.8
+  },
+  "Detektorsiz": {
+   "yakuniy": 158.1,
+   "driftdan_keyin": 97.5,
+   "qayta_boshlashlar": 0.0
+  }
+ },
+ "drift_yaxshilanish_foiz": -30.4,
+ "drift_ufq_kesimi": {
+  "500": {
+   "detektor_bilan": 37.8,
+   "detektorsiz": 16.7,
+   "farq_foiz": -127.1
+  },
+  "1000": {
+   "detektor_bilan": 50.5,
+   "detektorsiz": 29.6,
+   "farq_foiz": -70.3
+  },
+  "2000": {
+   "detektor_bilan": 67.1,
+   "detektorsiz": 48.6,
+   "farq_foiz": -37.9
+  },
+  "3000": {
+   "detektor_bilan": 87.4,
+   "detektorsiz": 63.1,
+   "farq_foiz": -38.6
+  },
+  "4000": {
+   "detektor_bilan": 102.7,
+   "detektorsiz": 76.0,
+   "farq_foiz": -35.1
+  },
+  "6000": {
+   "detektor_bilan": 127.1,
+   "detektorsiz": 97.5,
+   "farq_foiz": -30.4
+  }
+ },
+ "bonferroni": {
+  "h_bitta_komponent": 0.615,
+  "K_komponentda_tuzatishsiz_yolgon_signal": 0.18,
+  "nazariy_kutilma_1_minus_095_pow_K": 0.226,
+  "h_bonferroni": 0.712,
+  "bonferroni_bilan_yolgon_signal": 0.032
+ },
+ "ochkoz": {
+  "ortacha_nisbat": 0.9205,
+  "eng_past_nisbat": 0.526,
+  "nazariy_kafolat": 0.6321,
+  "kafolatdan_past_ulush": 0.0235,
+  "optimalga_teng_ulush": 0.599
+ },
+ "eng_foydali_komponent_ulushi": {
+  "m1 CF/graf": 0.1054,
+  "m5 LLM": 0.8946
+ },
+ "turli_komponent_ustun_boladigan_holatlar": 2
+}

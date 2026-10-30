@@ -1,0 +1,85 @@
+{
+ "beta_sezgirlik": {
+  "0.05": {
+   "afsuslanish": 1089.0,
+   "std": 82.4
+  },
+  "0.15": {
+   "afsuslanish": 103.8,
+   "std": 52.1
+  },
+  "0.35": {
+   "afsuslanish": 78.6,
+   "std": 0.9
+  },
+  "0.6": {
+   "afsuslanish": 162.2,
+   "std": 3.3
+  },
+  "1.0": {
+   "afsuslanish": 280.0,
+   "std": 1.3
+  }
+ },
+ "beta_optimal": 0.35,
+ "byudjet_sezgirlik": {
+  "4.0": {
+   "yol_qoyiladigan": 9,
+   "A1_afsuslanish": 44.3,
+   "statik_afsuslanish": 363.6,
+   "nisbat": 8.22,
+   "A1_ortacha_narx": 3.19
+  },
+  "6.0": {
+   "yol_qoyiladigan": 15,
+   "A1_afsuslanish": 67.3,
+   "statik_afsuslanish": 698.5,
+   "nisbat": 10.38,
+   "A1_ortacha_narx": 5.38
+  },
+  "8.0": {
+   "yol_qoyiladigan": 19,
+   "A1_afsuslanish": 78.6,
+   "statik_afsuslanish": 555.0,
+   "nisbat": 7.06,
+   "A1_ortacha_narx": 6.78
+  },
+  "10.0": {
+   "yol_qoyiladigan": 25,
+   "A1_afsuslanish": 114.9,
+   "statik_afsuslanish": 384.4,
+   "nisbat": 3.35,
+   "A1_ortacha_narx": 7.61
+  },
+  "14.0": {
+   "yol_qoyiladigan": 31,
+   "A1_afsuslanish": 122.5,
+   "statik_afsuslanish": 342.3,
+   "nisbat": 2.79,
+   "A1_ortacha_narx": 8.35
+  }
+ },
+ "submodulyarlik": {
+  "tekshirilgan_juftliklar": 60000,
+  "buzilishlar": 0,
+  "buzilish_ulushi": 0.0
+ },
+ "oflayn_ilitish": {
+  "0": {
+   "dastlabki_1000_raund": 25.6,
+   "yakuniy": 79.8
+  },
+  "50": {
+   "dastlabki_1000_raund": 15.0,
+   "yakuniy": 59.3
+  },
+  "200": {
+   "dastlabki_1000_raund": 18.1,
+   "yakuniy": 70.8
+  },
+  "1000": {
+   "dastlabki_1000_raund": 18.3,
+   "yakuniy": 97.5
+  }
+ }
+}
