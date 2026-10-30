@@ -1,0 +1,63 @@
+{
+ "hodisa": 120000,
+ "baholangan": 64124,
+ "katalog": 26354,
+ "m5_har": 8,
+ "vaqt_s": 1161.6,
+ "komponentlar": {
+  "m0_pop": {
+   "n_baho": 64124,
+   "HR@10": 0.0274,
+   "NDCG@10": 0.014,
+   "MRR": 0.0152
+  },
+  "m1_itemknn": {
+   "n_baho": 64124,
+   "HR@10": 0.0815,
+   "NDCG@10": 0.0448,
+   "MRR": 0.0438
+  },
+  "m2_kontent": {
+   "n_baho": 64124,
+   "HR@10": 0.0175,
+   "NDCG@10": 0.009,
+   "MRR": 0.0091
+  },
+  "m3_graf": {
+   "n_baho": 64124,
+   "HR@10": 0.1032,
+   "NDCG@10": 0.0572,
+   "MRR": 0.053
+  },
+  "m4_ketmaket": {
+   "n_baho": 64124,
+   "HR@10": 0.2564,
+   "NDCG@10": 0.133,
+   "MRR": 0.117
+  },
+  "f_asos": {
+   "n_baho": 64124,
+   "HR@10": 0.1056,
+   "NDCG@10": 0.0617,
+   "MRR": 0.0574
+  },
+  "m5_crossenc": {
+   "n_baho": 8015,
+   "HR@10": 0.08,
+   "NDCG@10": 0.0427,
+   "MRR": 0.0414
+  }
+ },
+ "m5_kendall_tau": {
+  "m2_kontent": 0.3495,
+  "m4_ketmaket": 0.0045,
+  "f_asos": 0.1756
+ },
+ "oqim": {
+  "hodisa": 857505,
+  "foydalanuvchi": 98906,
+  "item": 26354,
+  "boshlanish": 940628595000,
+  "tugash": 1693678468630
+ }
+}

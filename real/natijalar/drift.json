@@ -1,0 +1,102 @@
+{
+ "soxta_signal": {
+  "lam_tuzatishsiz": 121.252,
+  "lam_bonferroni": 122.9422,
+  "komponent_tuzatishsiz": 0.05,
+  "tizim_tuzatishsiz": 0.25,
+  "nazariy_1_minus_095_pow_K": 0.2262,
+  "komponent_bonferroni": 0.01,
+  "tizim_bonferroni": 0.05,
+  "n_segment": 20
+ },
+ "blok": 2000,
+ "bonferroni_lam": 122.942,
+ "bonferroni_aniqlash_haqiqiy_oqimda": 0,
+ "izoh": "Bonferroni bilan kalibrlangan chegarada real oqimda aniqlash bo'lmadi. Quyidagi jadval chegara pasaytirilganda reset jarimasi qanday o'zgarishini ko'rsatadi.",
+ "chegara_sweep": [
+  {
+   "nol_kvantil": 0.95,
+   "lam": 121.252,
+   "aniqlash": 0,
+   "NDCG_saqla": 0.1315,
+   "NDCG_reset": 0.1315,
+   "reset_jarimasi_foiz": 0.0,
+   "p_t": NaN,
+   "p_wilcoxon": NaN,
+   "n_blok": 32
+  },
+  {
+   "nol_kvantil": 0.8,
+   "lam": 83.621,
+   "aniqlash": 0,
+   "NDCG_saqla": 0.1315,
+   "NDCG_reset": 0.1315,
+   "reset_jarimasi_foiz": 0.0,
+   "p_t": NaN,
+   "p_wilcoxon": NaN,
+   "n_blok": 32
+  },
+  {
+   "nol_kvantil": 0.6,
+   "lam": 71.304,
+   "aniqlash": 0,
+   "NDCG_saqla": 0.1315,
+   "NDCG_reset": 0.1315,
+   "reset_jarimasi_foiz": 0.0,
+   "p_t": NaN,
+   "p_wilcoxon": NaN,
+   "n_blok": 32
+  },
+  {
+   "nol_kvantil": 0.4,
+   "lam": 6.134,
+   "aniqlash": 168,
+   "NDCG_saqla": 0.1315,
+   "NDCG_reset": 0.0851,
+   "reset_jarimasi_foiz": 54.56,
+   "p_t": 7.55163957558889e-20,
+   "p_wilcoxon": 4.656612873077393e-10,
+   "n_blok": 32
+  },
+  {
+   "nol_kvantil": 0.2,
+   "lam": 4.027,
+   "aniqlash": 358,
+   "NDCG_saqla": 0.1315,
+   "NDCG_reset": 0.0728,
+   "reset_jarimasi_foiz": 80.66,
+   "p_t": 4.340525810108201e-24,
+   "p_wilcoxon": 4.656612873077393e-10,
+   "n_blok": 32
+  }
+ ],
+ "holm": {
+  "lam=4.0 (t)": {
+   "p_xom": 4.340525810108201e-24,
+   "p_holm": 1.7362103240432804e-23,
+   "ahamiyatli_005": true
+  },
+  "lam=6.1 (t)": {
+   "p_xom": 7.55163957558889e-20,
+   "p_holm": 2.265491872676667e-19,
+   "ahamiyatli_005": true
+  },
+  "lam=6.1 (W)": {
+   "p_xom": 4.656612873077393e-10,
+   "p_holm": 9.313225746154785e-10,
+   "ahamiyatli_005": true
+  },
+  "lam=4.0 (W)": {
+   "p_xom": 4.656612873077393e-10,
+   "p_holm": 9.313225746154785e-10,
+   "ahamiyatli_005": true
+  }
+ },
+ "eng_yaxshi_statik": {
+  "toplam": [
+   4
+  ],
+  "NDCG": 0.133
+ },
+ "vaqt_s": 986.6
+}

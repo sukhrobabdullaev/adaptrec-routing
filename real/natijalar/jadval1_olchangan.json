@@ -1,0 +1,94 @@
+{
+ "izoh": "Amazon Reviews 2023 / Video_Games, 5-core, prequential, TO'LIQ reyting (26 354 item, namuna olingan negativlarsiz). Sifat va kechikish ALOHIDA o'lchangan: sifat bitta o'tishda, kechikish esa izolyatsiyada (komponentlar 2 yadro uchun raqobatlashmasligi uchun).",
+ "oqim": {
+  "hodisa": 857505,
+  "foydalanuvchi": 98906,
+  "item": 26354,
+  "boshlanish": 940628595000,
+  "tugash": 1693678468630
+ },
+ "izolyatsiya": {
+  "warm": 100000,
+  "namuna": 120,
+  "takror": 7,
+  "yadro": 2
+ },
+ "m5_har": 8,
+ "m5_kendall_tau": {
+  "m2_kontent": 0.3495,
+  "m4_ketmaket": 0.0045,
+  "f_asos": 0.1756
+ },
+ "qatorlar": [
+  {
+   "komponent": "m0_pop",
+   "n_baho": 64124,
+   "NDCG10": 0.014,
+   "HR10": 0.0274,
+   "MRR": 0.0152,
+   "p50_ms": 0.0002,
+   "p95_ms": 0.0002,
+   "p99_ms": 0.0003
+  },
+  {
+   "komponent": "m1_itemknn",
+   "n_baho": 64124,
+   "NDCG10": 0.0448,
+   "HR10": 0.0815,
+   "MRR": 0.0438,
+   "p50_ms": 0.0714,
+   "p95_ms": 0.2959,
+   "p99_ms": 0.813
+  },
+  {
+   "komponent": "m2_kontent",
+   "n_baho": 64124,
+   "NDCG10": 0.009,
+   "HR10": 0.0175,
+   "MRR": 0.0091,
+   "p50_ms": 0.3899,
+   "p95_ms": 0.5325,
+   "p99_ms": 0.6549
+  },
+  {
+   "komponent": "m3_graf",
+   "n_baho": 64124,
+   "NDCG10": 0.0572,
+   "HR10": 0.1032,
+   "MRR": 0.053,
+   "p50_ms": 1.2959,
+   "p95_ms": 3.7938,
+   "p99_ms": 4.5904
+  },
+  {
+   "komponent": "m4_ketmaket",
+   "n_baho": 64124,
+   "NDCG10": 0.133,
+   "HR10": 0.2564,
+   "MRR": 0.117,
+   "p50_ms": 0.0136,
+   "p95_ms": 0.0529,
+   "p99_ms": 0.0929
+  },
+  {
+   "komponent": "f_asos",
+   "n_baho": 64124,
+   "NDCG10": 0.0617,
+   "HR10": 0.1056,
+   "MRR": 0.0574,
+   "p50_ms": 1.5438,
+   "p95_ms": 3.4667,
+   "p99_ms": 4.26
+  },
+  {
+   "komponent": "m5_crossenc",
+   "n_baho": 8015,
+   "NDCG10": 0.0427,
+   "HR10": 0.08,
+   "MRR": 0.0414,
+   "p50_ms": 43.3852,
+   "p95_ms": 52.0555,
+   "p99_ms": 60.1617
+  }
+ ]
+}

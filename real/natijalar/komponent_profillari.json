@@ -1,0 +1,64 @@
+{
+ "hodisa": 120000,
+ "baholangan": 64124,
+ "katalog": 26354,
+ "vaqt_s": 5887.8,
+ "komponentlar": {
+  "m0_pop": {
+   "HR@10": 0.0274,
+   "NDCG@10": 0.014,
+   "MRR": 0.0152,
+   "lat_ortacha_ms": 0.0038,
+   "lat_p95_ms": 0.0029,
+   "lat_p99_ms": 0.0044
+  },
+  "m1_itemknn": {
+   "HR@10": 0.0815,
+   "NDCG@10": 0.0448,
+   "MRR": 0.0438,
+   "lat_ortacha_ms": 0.4739,
+   "lat_p95_ms": 0.9128,
+   "lat_p99_ms": 4.6182
+  },
+  "m2_kontent": {
+   "HR@10": 0.0175,
+   "NDCG@10": 0.009,
+   "MRR": 0.0091,
+   "lat_ortacha_ms": 3.8069,
+   "lat_p95_ms": 8.0035,
+   "lat_p99_ms": 13.0892
+  },
+  "m3_graf": {
+   "HR@10": 0.1032,
+   "NDCG@10": 0.0572,
+   "MRR": 0.053,
+   "lat_ortacha_ms": 1.3296,
+   "lat_p95_ms": 3.545,
+   "lat_p99_ms": 7.4844
+  },
+  "m4_ketmaket": {
+   "HR@10": 0.2564,
+   "NDCG@10": 0.133,
+   "MRR": 0.117,
+   "lat_ortacha_ms": 0.0645,
+   "lat_p95_ms": 0.0887,
+   "lat_p99_ms": 0.114
+  },
+  "m5_crossenc": {
+   "HR@10": 0.0824,
+   "NDCG@10": 0.0442,
+   "MRR": 0.0428,
+   "lat_ortacha_ms": 85.2444,
+   "lat_p95_ms": 105.9348,
+   "lat_p99_ms": 111.0513
+  }
+ },
+ "oqim": {
+  "hodisa": 857505,
+  "foydalanuvchi": 98906,
+  "item": 26354,
+  "boshlanish": 940628595000,
+  "tugash": 1693678468630
+ },
+ "m5_backend": "onnx"
+}
